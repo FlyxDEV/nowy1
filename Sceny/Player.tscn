@@ -1,0 +1,110 @@
+[gd_scene load_steps=22 format=3 uid="uid://dqjih5etankrd"]
+
+[ext_resource type="Script" uid="uid://4hqm8cj7bxs8" path="res://Scripts/player.gd" id="1_fk1dx"]
+[ext_resource type="Texture2D" uid="uid://cgjtqfr4g34io" path="res://Assets/Treasure Hunters/Treasure Hunters/The Crusty Crew/Sprites/Pink Star/07-Attack/Attack 01.png" id="2_whxxo"]
+[ext_resource type="Texture2D" uid="uid://bvc0h565vluo3" path="res://Assets/Treasure Hunters/Treasure Hunters/The Crusty Crew/Sprites/Pink Star/07-Attack/Attack 02.png" id="3_yupcd"]
+[ext_resource type="Texture2D" uid="uid://5cdvb135caav" path="res://Assets/Treasure Hunters/Treasure Hunters/The Crusty Crew/Sprites/Pink Star/07-Attack/Attack 03.png" id="4_4aml7"]
+[ext_resource type="Texture2D" uid="uid://ctidxdarml4kk" path="res://Assets/Treasure Hunters/Treasure Hunters/The Crusty Crew/Sprites/Pink Star/07-Attack/Attack 04.png" id="5_07uie"]
+[ext_resource type="Texture2D" uid="uid://cromx5d81g6va" path="res://Assets/Treasure Hunters/Treasure Hunters/The Crusty Crew/Sprites/Pink Star/01-Idle/Idle 01.png" id="6_1e0ko"]
+[ext_resource type="Texture2D" uid="uid://dcei8slite2lr" path="res://Assets/Treasure Hunters/Treasure Hunters/The Crusty Crew/Sprites/Pink Star/01-Idle/Idle 02.png" id="7_ua8fe"]
+[ext_resource type="Texture2D" uid="uid://kpeehrokui7q" path="res://Assets/Treasure Hunters/Treasure Hunters/The Crusty Crew/Sprites/Pink Star/01-Idle/Idle 03.png" id="8_1eit4"]
+[ext_resource type="Texture2D" uid="uid://d1io8jr0usrvs" path="res://Assets/Treasure Hunters/Treasure Hunters/The Crusty Crew/Sprites/Pink Star/01-Idle/Idle 04.png" id="9_8jtnh"]
+[ext_resource type="Texture2D" uid="uid://dt1ak4jncdyp8" path="res://Assets/Treasure Hunters/Treasure Hunters/The Crusty Crew/Sprites/Pink Star/01-Idle/Idle 05.png" id="10_46vg3"]
+[ext_resource type="Texture2D" uid="uid://dd3cqf3avvw0d" path="res://Assets/Treasure Hunters/Treasure Hunters/The Crusty Crew/Sprites/Pink Star/01-Idle/Idle 06.png" id="11_hsel2"]
+[ext_resource type="Texture2D" uid="uid://3qen2tn0637k" path="res://Assets/Treasure Hunters/Treasure Hunters/The Crusty Crew/Sprites/Pink Star/01-Idle/Idle 07.png" id="12_alvla"]
+[ext_resource type="Texture2D" uid="uid://qj500hh1xkmm" path="res://Assets/Treasure Hunters/Treasure Hunters/The Crusty Crew/Sprites/Pink Star/01-Idle/Idle 08.png" id="13_b4gqd"]
+[ext_resource type="Texture2D" uid="uid://ca6lwtd82iije" path="res://Assets/Treasure Hunters/Treasure Hunters/The Crusty Crew/Sprites/Pink Star/02-Run/Run 01.png" id="14_wx68i"]
+[ext_resource type="Texture2D" uid="uid://cleet5mpyw01r" path="res://Assets/Treasure Hunters/Treasure Hunters/The Crusty Crew/Sprites/Pink Star/02-Run/Run 02.png" id="15_olnnx"]
+[ext_resource type="Texture2D" uid="uid://q42a2wsyiomo" path="res://Assets/Treasure Hunters/Treasure Hunters/The Crusty Crew/Sprites/Pink Star/02-Run/Run 03.png" id="16_jm2bs"]
+[ext_resource type="Texture2D" uid="uid://cdbdfr8s70q4u" path="res://Assets/Treasure Hunters/Treasure Hunters/The Crusty Crew/Sprites/Pink Star/02-Run/Run 04.png" id="17_tkanv"]
+[ext_resource type="Texture2D" uid="uid://cuxweg45ynduc" path="res://Assets/Treasure Hunters/Treasure Hunters/The Crusty Crew/Sprites/Pink Star/02-Run/Run 05.png" id="18_0xgcu"]
+[ext_resource type="Texture2D" uid="uid://dses3yiesuo36" path="res://Assets/Treasure Hunters/Treasure Hunters/The Crusty Crew/Sprites/Pink Star/02-Run/Run 06.png" id="19_2n8ij"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_3yvy2"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_whxxo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_yupcd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_4aml7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_07uie")
+}],
+"loop": true,
+"name": &"Fall",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_1e0ko")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_ua8fe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_1eit4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_8jtnh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_46vg3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_hsel2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_alvla")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_b4gqd")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("14_wx68i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_olnnx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_jm2bs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_tkanv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_0xgcu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_2n8ij")
+}],
+"loop": true,
+"name": &"Run",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_aneud"]
+size = Vector2(21, 24)
+
+[node name="Player" type="CharacterBody2D"]
+script = ExtResource("1_fk1dx")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_3yvy2")
+animation = &"Run"
+autoplay = "Idle"
+frame = 5
+frame_progress = 0.00339493
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0.5, 2)
+shape = SubResource("RectangleShape2D_aneud")
